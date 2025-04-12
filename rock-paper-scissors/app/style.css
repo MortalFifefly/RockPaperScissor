@@ -1,0 +1,62 @@
+body {
+  background-color: #575757;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff; /* Added text color for better contrast */
+}
+
+h1 {
+  font-size: 2.5rem; /* Slightly increased font size for better visibility */
+  text-align: center;
+  padding-top: 80px; /* Reduced padding for better spacing */
+  margin: 0; /* Added margin reset */
+}
+
+p {
+  font-size: 1.25rem; /* Adjusted font size for better readability */
+  font-weight: 600;
+  text-align: center;
+  margin: 0.5rem 0; /* Unified margin for better spacing */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem; /* Added spacing between buttons and text */
+}
+
+button {
+  border: none;
+  font-size: 2rem; /* Reduced font size for better balance */
+  margin: 0 0.75rem; /* Adjusted margin for better spacing */
+  padding: 0.75rem 1.5rem; /* Enhanced padding for better clickability */
+  cursor: pointer;
+  border-radius: 8px; /* Slightly increased border radius for a smoother look */
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transform effect */
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05); /* Added scaling effect on hover */
+}
+
+#rock {
+  background-color: #ff4d4d; /* Slightly lighter red for better contrast */
+}
+
+#paper {
+  background-color: #42a5f5; /* Slightly lighter blue for better contrast */
+}
+
+#scissors {
+  background-color: #66bb6a; /* Slightly lighter green for better contrast */
+}
+
+#user-score {
+  color: #42a5f5; /* Matched color with the paper button */
+}
+
+#computer-score {
+  color: #ff4d4d; /* Matched color with the rock button */
+}
